@@ -1,13 +1,13 @@
 # Atividade-Loop
 
-#Desáfio 1
+#Desafio 1
 
 n = int(input('Digite uma nota, entre zero e dez: '))
  while n > 10 or n < 0:
     n = int(input("Errou, tente dnv: "))
  print("boa")
 
-#Desáfio 2
+#Desafio 2
 
 user = input("Digite o usuario: ")
 senha = input("Digite a senha: ")
@@ -18,7 +18,7 @@ for senha in user:
 
     senha = input("Digite a senha: ")
 
-#Desáfio 3
+#Desafio 3
 
 user = input('Digite o seu nome: ').strip()
 while len(user) < 3:
